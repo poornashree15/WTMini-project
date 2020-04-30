@@ -1,0 +1,65 @@
+<html>
+<body bgcolor="pink">
+
+ <form name="BUS Reservation System" method="post" action="final.html">
+ <h1><marquee bgcolor="red">Welcome to MPS Bus App </marquee> </h1>
+ <h3>AVAILABLE BUSES</h3>
+<table border="5">
+<tr>
+<td>Bus_id</td>
+<td>Bus_name</td>
+<td>Arrival_time</td>
+<td>Departure_time</td>
+<td>Source</td>
+<td>Destination</td>
+<td>avail_tickets</td>
+<td>Cost<td>
+</tr>
+<tr>
+<td>12380</td>
+<td>Red Air</td>
+<td>2pm</td>
+<td>5am</td>
+<td>Chennai</td>
+<td>Errode</td>
+<td>40</td>
+<td>400</td>
+</tr>
+<tr>
+<td>45871</td>
+<td>SPS</td>
+<td>5am</td>
+<td>12pm</td>
+<td>Chennai</td>
+<td>madurai</td>
+<td>40</td>
+<td>500</td>
+</tr>
+<tr>
+<td>14752</td>
+<td>PVN</td>
+<td>9pm</td>
+<td>7am</td>
+<td>bangalore</td>
+<td>chennai</td>
+<td>40</td>
+<td>700</td>
+</tr>
+<tr>
+<td>12574</td>
+<td>SSTN</td>
+<td>11pm</td>
+<td>4am</td>
+<td>Chennai</td>
+<td>trichy</td>
+<td>40</td>
+<td>600</td>
+</tr><br><br>
+</table>
+To book tickets click :  
+         <input type="submit"  value="BOOK" name="b"/>
+         
+</body>
+</form>
+</html>
+

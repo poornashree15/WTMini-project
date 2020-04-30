@@ -1,0 +1,25 @@
+<html>
+<head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div bgcolor="yellow">
+<h1 style="color:black;font-size:50px;font-family:algerian"><center>Welcome to login page</center></h1>
+<form name="0.7_register" method="post" action="http://bus.html" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+<table>
+ <tr>
+         <td>User id:</td>
+         <td><input type="text" name="from"></td>
+         </tr><td><br>
+     <tr>
+     <td>password:</td>
+     <td><input type="password" name="to"></td>
+             </tr>
+<tr>
+   
+         <td><input type="submit" name="login" value="Login"></td>
+</tr>
+</td></table>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+import java.io.*;
+rimport java.util.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.sql.*;
+ 
+public class Sample extends HttpServlet{
+try{
+	 Class.forName("com.mysql.jdbc.Driver");
+     connection con = (connection)DriverManager.getConnection("jdbc:mysql://localhost","root");
+      statement stmt = con.createStatement();
+         String s1,s2;
+
+String psg_name=request.getParameter("Psg_name");
+String psg_age=request.getParameter("psg_age");
+String bus_no=request.getParameter("bus_no");
+String psg_ph=request.getParameter("psg_ph");
+String no_of_tickets=request.getParameter("no_of_ticket");
+sql2 = "insert into passenger values('"+psg_name+"','"+psg_age+"','"+bus_no+"','"+psg_ph+"','"+no_of_ticket+"')";
+  stmt.executeUpdate(s2); 
+s1 = "select bus.avail_tickets-passenger.no_of_ticket from bus inner join passenger on bus_id='"+bus_no+"'";
+       ResultSet  rs = stmt.executeQuery(sql);
+System.out.println("<html> <body><center> <h1> passenger Details </h1> <br><br> <br> <table border='1'> <tr> <th> ID </th> <th> Name </th> <th> Dept </th> <th> Year </th> <th> Cgpa </th> </tr>");
+while(rs.next()){
+System.out.println("<tr> <td>"+rs.getString("psg_name")+"</td> <td>"+rs.getInt("psg_age")+"</td> <td>"+rs.getInt("bus_no")+"</td> <td>"+rs.getString("psg_ph")+"</td> <td>"+rs.getInt("no_of_ticket")+"</td> </tr>");
+}
+System.out.print("</table></center></body></html>");
+rs.close();
+stmt.close();
+con.close();
+catch(SQLException se){
+         out.println(se);
+      }catch(Exception e){
+        out.println(e);
+      }finally{
+        
+         try{
+            if(stmt!=null)
+               stmt.close();
+         }catch(SQLException se2){
+		 out.println(se2);
+         }
+         try{
+            if(conn!=null)
+            conn.close();
+         }catch(SQLException se){
+		 out.println(se);
+}
+}
+}
+}
+
+
+          
+      
+        

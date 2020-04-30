@@ -1,0 +1,28 @@
+
+<html>
+<head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div bgcolor="lightgreen">
+<h1 style="color:blue;font-size:50px"><center>WELCOME TO MPS BUS SERVICE</center></h1>
+<form name="0.1_welcome" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+<center>
+<table>
+<tr>
+<td><div><a href="http://register.html" target="_blank">REGISTER</a></div><br>
+ </td>
+</tr>
+<td><br>
+<tr>
+<td><div><a href="http://login.html" target="_blank">LOGIN</a></div></td><td><br>
+</td></tr>
+<td><br>
+<tr>
+<td><div><a href="http://logout.html" target="_blank">LOGOUT</a></div></td><td><br>
+</td></tr>
+</td></td></table>
+</center>
+</form>
+
+</div>
+</body></html>

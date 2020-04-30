@@ -1,0 +1,42 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+<div bgcolor="red">
+<h1 style="color:blue;font-size:50px;font-family:algerian"><center>Welcome to register page</center></h1>
+<form name="0.6_register" method="post" action="http://bus.html" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+<table>
+ <tr>
+         <td>Name:</td>
+         <td><input type="text" name="from"></td>
+         </tr><td><br>
+     <tr>
+     <td>Username:</td>
+     <td><input type="text" name="to"></td>
+             </tr>
+        <tr>
+            <td>Email id:</td>
+            <td><input type="email" name="namep"></td>
+            </tr>
+         <tr>
+         <td>Password:</td>
+         <td><input type="password" name="age"></td>
+                     
+</tr>
+<tr>
+  <td>Confirm password:</td><td><input type="password" name="phone"></td><td><br>
+  </td></tr>
+ 
+   <tr>
+   
+         <td><input type="submit" name="Register" value="register"></td>
+</tr>
+</td></table>
+</form></div>
+
+
+
+
+
+
+
+
+</body></html>
